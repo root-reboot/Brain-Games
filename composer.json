@@ -5,11 +5,15 @@
             "Hexlet\\Code\\": "src/"
         }
     },
+    "bin": [
+        "bin/brain-games"
+      ],
     "authors": [
         {
-            "name": "Tim Voi",
+            "name": "root-reboot",
             "email": "VTVTima@mail.ru"
         }
     ],
     "require": {}
 }
+

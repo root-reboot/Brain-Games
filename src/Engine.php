@@ -5,7 +5,8 @@ namespace Brain\Games\Engine;
 use function cli\line;
 use function cli\prompt;
 use function Brain\Games\Games\Even\brainEven;
-use function BBrain\Games\Games\Calc\brainCalc;
+use function Brain\Games\Games\Calc\brainCalc;
+use function Brain\Games\Games\Gcd\brainGcd;
 
 function gameRun($gameTask, $gameData)
 {

@@ -4,7 +4,6 @@ namespace Brain\Games\Games\Gcd;
 
 use function Brain\Games\Engine\gameRun;
 
-
 function brainGcd()
 {
     $gameTask = 'Find the greatest common divisor of given numbers.';
@@ -16,7 +15,6 @@ function brainGcd()
         $gameQuestion = "{$a} {$b}";
 
         while ($a != $b) {
-
             if ($a > $b) {
                 $a -= $b;
             } else {

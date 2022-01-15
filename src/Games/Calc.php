@@ -14,11 +14,11 @@ function brainCalc()
         $operation = $operators[array_rand($operators, 1)];
         $numberOne = rand(0, 50);
         $numberTwo = rand(0, 50);
-        if ($operation === "+") {
+        if ($operation == "+") {
             $result = $numberOne + $numberTwo;
-        } else if ($operation === "-") {
+        } else if ($operation == "-") {
             $result = $numberOne - $numberTwo;
-        } else if ($operation === "*") {
+        } else if ($operation == "*") {
             $result = $numberOne * $numberTwo;
         }
         $gameQuestion = "{$numberOne} {$operation} {$numberTwo}";

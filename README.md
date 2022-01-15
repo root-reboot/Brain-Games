@@ -22,3 +22,18 @@ make brain-calc
 make brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/JXy6yUTKubliSLq4uP7No6kGP.svg)](https://asciinema.org/a/JXy6yUTKubliSLq4uP7No6kGP)
+
+**BrainGames: Progression**
+```sh
+make brain-progression
+```
+[![asciicast](https://asciinema.org/a/BVIsYYlo0Zew6Z6XtxfkIeUac.svg)](https://asciinema.org/a/BVIsYYlo0Zew6Z6XtxfkIeUac)
+
+**BrainGames: Prime**
+```sh
+make brain-prime
+```
+[![asciicast](https://asciinema.org/a/oD72YCAYCkTgwV6Qc0MLLQjGL.svg)](https://asciinema.org/a/oD72YCAYCkTgwV6Qc0MLLQjGL)
+
+
+

@@ -12,12 +12,7 @@ function brainEven()
 
     for ($i = 0; $i < 3; $i++) {
         $gameQuestion = rand(0, 100);
-        
-        if (($gameQuestion % 2) == 0) {
-            $gameData[$gameQuestion] = 'yes';
-        } else {
-            $gameData[$gameQuestion] = 'no';
-        }
+        $gameData[$gameQuestion] = (($gameQuestion % 2) == 0) ? 'yes' : 'no';
     }
     gameRun($gameTask, $gameData);
 }

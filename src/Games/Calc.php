@@ -8,6 +8,7 @@ function brainCalc()
 {
     $gameTask = 'What is the result of the expression?';
     $gameData = [];
+    $result = '';
     $operators = ['+', '-', '*'];
 
     for ($i = 0; $i < 3; $i++) {

@@ -29,6 +29,6 @@ function gameRun($gameTask, $gameData)
         }
     }
     if ($counter === 3) {
-        line("Congratulations, %s", $name);
+        line("Congratulations, {$name}!");
     }
 }

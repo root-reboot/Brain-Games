@@ -10,7 +10,7 @@ use function Brain\Games\Games\Gcd\brainGcd;
 
 function gameRun($gameTask, $gameData)
 {
-    line('Welcome to the Brain Games!');
+    line('Welcome to the Brain Game!');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     line($gameTask);
@@ -29,6 +29,6 @@ function gameRun($gameTask, $gameData)
         }
     }
     if ($counter === 3) {
-        line("Congratulations: %s", $name);
+        line("Congratulations, %s", $name);
     }
 }

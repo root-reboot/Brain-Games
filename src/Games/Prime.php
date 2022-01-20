@@ -21,12 +21,17 @@ function brainPrime()
     gameRun($gameTask, $gameData);
 }
 
-function isPrime(int $n)
+function isPrime(int $num): bool
 {
-    for ($x = 2; $x <= sqrt($n); $x++) {
-        if ($n % $x == 0) {
+    if ($num < 2) {
+        return false;
+    }
+
+    for ($i = 2; $i <= $num / 2; $i++) {
+        if ($num % $i === 0) {
             return false;
         }
     }
+
     return true;
 }
